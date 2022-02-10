@@ -159,3 +159,35 @@
 #         print(f"{counter1} X {counter2} = {counter1 * counter2}")
 #         counter2 += 1
 #     counter1 += 1
+
+
+# Large 
+
+# 3. Guess a Number 
+import random
+
+playing = True
+while playing:
+    print("I'm thinking of a number between 1 and 10.") 
+    secret_number = random.randint(1, 10)
+    guessed_number = ""
+    number_of_guesses = 5
+    while secret_number != guessed_number and number_of_guesses > 0:
+        print(f"You have {number_of_guesses} guesses left.")
+        guessed_number = int(input("What's the number? "))
+        if guessed_number < secret_number:
+            print(f"{guessed_number} is too low.")
+        elif guessed_number > secret_number:
+            print(f"{guessed_number} is too high.")
+        number_of_guesses -= 1
+
+    if secret_number == guessed_number:
+        print("Yes! You win!")
+    else:
+        print("You ran out of guesses!")
+    
+    play_again = input("Do you want to play again (Y or N)? ").upper().strip()
+    if play_again == "N":
+        playing = False
+        
+print("Bye!")
