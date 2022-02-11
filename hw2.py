@@ -10,7 +10,7 @@
 # create a list of numbers, print the largest number
 
 
-nums = [12, 3, 4, 93, 83]
+# nums = [12, 3, 4, 93, 83]
 # nums.sort()
 # print(nums[-1])
 # max_num = 0
