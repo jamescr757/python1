@@ -85,5 +85,27 @@
 #         new_string += letter
 # print(new_string)
 
+# 5. Leetspeak 
+# another method using a dictionary to hold translation 
+# string_list = list(input("Enter text to be translated: "))
+# translator = {"A": "4", "E": "3", "G": "6", "I": "1", "O": "0", "S": "5", "T": "7"}
+# for index, letter in enumerate(string_list):
+#     char = letter.upper()
+#     if char in translator:
+#         string_list[index] = translator[char]
+# print("".join(string_list))
+
+# string = input("Enter text to be translated: ")
+# translator = {"A": "4", "E": "3", "G": "6", "I": "1", "O": "0", "S": "5", "T": "7"}
+# new_string = ""
+# for index, letter in enumerate(string):
+#     char = letter.upper()
+#     if char in translator:
+#         new_string += translator[char]
+#     else:
+#         new_string += letter
+# print(new_string)
+
 # 6. Long-long vowels
 # extend long-vowels to a length of 5 
+# word = input("Enter a word: ")
