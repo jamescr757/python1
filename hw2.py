@@ -8,12 +8,11 @@
 
 # 2. Largest Number
 # create a list of numbers, print the largest number
-
-
-# nums = [12, 3, 4, 93, 83]
+# nums = [-12, -3, -4, -93, -83]
 # nums.sort()
 # print(nums[-1])
-# max_num = 0
+# import math
+# max_num = -math.inf
 # for num in nums:
 #     if num > max_num:
 #         max_num = num
