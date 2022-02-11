@@ -8,15 +8,28 @@
 
 # 2. Largest Number
 # create a list of numbers, print the largest number
-# nums = [12, 3, 4, 93, 83]
+
+
+nums = [12, 3, 4, 93, 83]
 # nums.sort()
 # print(nums[-1])
+# max_num = 0
+# for num in nums:
+#     if num > max_num:
+#         max_num = num
+# print(max_num)
 
 # 3. smallest number
 # Create a list of numbers, print the smallest number
+# import math
 # nums = [12, 3, 4, 93, 83]
-# nums.sort()
-# print(nums[0])
+# # nums.sort()
+# # print(nums[0])
+# min_num = math.inf
+# for num in nums:
+#     if num < min_num:
+#         min_num = num
+# print(min_num)
 
 # 4. Even numbers
 # create a list of numbers, print each number that is even 
@@ -59,6 +72,10 @@
 # print("".join(reversed(string)))
 # reversed_string = reversed(string)
 # print("".join(reversed_string))
+# reversed_string = ""
+# for index in range(len(string) - 1, -1, -1):
+#     reversed_string += string[index]
+# print(reversed_string)
 
 
 # Medium Problems 
