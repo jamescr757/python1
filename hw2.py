@@ -149,3 +149,18 @@
 # 7. Caesar Cipher 
 # given an encrypted string, return the deciphered text 
 # shift the letters by 13 
+# a to z unicode values go from 97 to 122
+# encrypted_string = list(input("Encrypted text: "))
+# key = int(input("Enter encryption key value: "))
+# for index, char in enumerate(encrypted_string):
+#     unicode_value = ord(char)
+#     if unicode_value == 32:
+#         continue
+#     new_value = unicode_value + key
+#     while new_value < 97 or new_value > 122:
+#         if new_value < 97:
+#             new_value += 26 
+#         elif new_value > 122:
+#             new_value -= 26
+#     encrypted_string[index] = chr(new_value)
+# print("".join(encrypted_string))
