@@ -138,18 +138,23 @@
 #     print(stars)
 #     counter1 += 1
 
+
+# count = 1
+# down = 3
+
+# while count < 9:
+#     print((down * " ") + (count * '*'))
+#     down-=1
+#     count+=2
+
 # 5. 
+# triangle_height = int(input("Please input height of triangle: "))
 # counter = 1
-# while counter <= 4:
-#     if counter == 1:
-#         print("   *   ")
-#     elif counter == 2: 
-#         print("  ***  ")
-#     elif counter == 3:
-#         print(" ***** ")
-#     else:
-#         print("*******")
-#     counter += 1
+# spaces = triangle_height - 1
+# while counter <= triangle_height * 2:
+#     print((spaces * " ") + counter * "*")
+#     spaces -= 1
+#     counter += 2
 
 # 6. 
 # counter1 = 1
