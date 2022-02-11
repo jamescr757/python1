@@ -133,3 +133,19 @@
 # 6. Long-long vowels
 # extend long-vowels to a length of 5 
 # word = input("Enter a word: ")
+# new_word = ""
+# for index in range(len(word)):
+#     if index < len(word) - 1 and word[index] in "aeoiu": 
+#         if word[index + 1] in "aeoui":
+#             new_word += word[index] * 5
+#         elif index < len(word) - 2 and word[index + 2] in "aoeui":
+#             new_word += word[index] * 5
+#         else:
+#             new_word += word[index]
+#     else:
+#         new_word += word[index]
+# print(new_word)
+
+# 7. Caesar Cipher 
+# given an encrypted string, return the deciphered text 
+# shift the letters by 13 
