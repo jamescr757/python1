@@ -1,6 +1,10 @@
 # 1. create a list of numbers, print their sum
 # nums = [12, 3, 4, 93, 83]
 # print(sum(nums))
+# sum = 0
+# for num in nums:
+#     sum += num
+# print(sum)
 
 # 2. Largest Number
 # create a list of numbers, print the largest number
@@ -59,6 +63,26 @@
 
 # Medium Problems 
 
+
+# 1. multiply vectors 
+# given two lists of numbers that are same length, create a new list by multiplying the two lists together 
+# nums1 = [2, 4, 5]
+# nums2 = [2, 3, 6]
+# multiplied_nums = []
+# for index in range(len(nums1)):
+#     multiplied_nums.append(nums1[index] * nums2[index])
+# print(multiplied_nums)
+
+# 2. and 3. Matrix addition I and II
+# calculate result of adding 2 matrices of same size 
+# matrix1 = [[1, 3, 5], [2, 4]]
+# matrix2 = [[5, 2, 3], [1, 0]]
+# new_matrix = []
+# for row in range(len(matrix1)):
+#     new_matrix.append([])
+#     for column in range(len(matrix1[row])):
+#         new_matrix[row].append(matrix1[row][column] + matrix2[row][column])
+# print(new_matrix)
 
 # 4. De-dup
 # remove duplicate items from a list and print it 
