@@ -5,6 +5,7 @@ with open("phonebook.json", "r") as file_handle:
     phonebook = json.load(file_handle)
 selection = 0
 
+
 def get_selection_from_user():
     try:
         selection = int(input("""
